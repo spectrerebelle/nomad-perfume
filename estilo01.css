@@ -1,0 +1,225 @@
+/*--INICIO ESTRUTURA BÁSICA--*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  background: #060505;
+  max-width: 1440px;
+  max-height: 1024px;
+}
+
+img {
+  position: absolute;
+  width: 674px;
+  left: 0px;
+  top: 0px;
+}
+/*--FIM ESTRUTURA BÁSICA--*/
+
+/*--INICIO NAVEGAÇÃO--*/
+.navbar {
+  position: absolute;
+  width: 678px;
+  height: 41px;
+  left: 731px;
+  top: 69px;
+}
+
+.navbar li {
+  list-style: none;
+  line-height: 22px;
+  display: inline-flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #7f8080;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+}
+/*--FIM NAVEGAÇÃO--*/
+
+/*--INICIO INFO PRODUTO*/
+.titulo-um {
+  position: absolute;
+  width: 661px;
+  height: 32px;
+  left: 720px;
+  top: 209px;
+}
+
+.titulo-um h2 {
+  color: #7f8080;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.marca {
+  position: absolute;
+  width: 154px;
+  height: 29px;
+  left: 1227px;
+  top: 212px;
+}
+
+.marca h2 {
+  color: #7f8080;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.info-ml {
+  position: absolute;
+  width: 194px;
+  height: 24px;
+  left: 743px;
+  top: 279px;
+}
+
+.info-ml h4 {
+  color: #7f8080;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: inline;
+  align-items: center;
+}
+
+.preco {
+  position: absolute;
+  width: 143px;
+  height: 24px;
+  left: 992px;
+  top: 279px;
+}
+
+.preco h4 {
+  color: #7f8080;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: inline;
+  align-items: center;
+}
+/*--FIM INFO PRODUTO--*/
+
+/*--LINHA DIVISÓRIA 01*/
+.line-one {
+  position: absolute;
+  width: 661px;
+  height: 0;
+  left: 720px;
+  top: 248px;
+  border: 1px solid #e5c7a6;
+} /*--LINHA DIVISÓRIA 01--*/
+
+/*--INICIO DESCRIÇÃO DO PRODUTO--*/
+.descricao {
+  position: absolute;
+  width: 638px;
+  height: 242px;
+  left: 743px;
+  top: 373px;
+}
+
+.descricao p {
+  color: #7f8080;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.details {
+  position: absolute;
+  width: 166px;
+  height: 26px;
+  left: 755px;
+  top: 664px;
+}
+
+.details p {
+  color: #7f8080;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font: 18px;
+  line-height: 22px;
+}
+
+.polygon {
+  position: absolute;
+  width: 31px;
+  height: 22px;
+  left: 1346px;
+  top: 690px;
+  border: 1px solid #7f8080;
+  box-sizing: border-box;
+  transform: rotate(180deg);
+}
+/*--FIM DESCRIÇÃO DO PRODUTO*/
+
+/*--LINHA DIVISÓRIA 02--*/
+.line-two {
+  position: absolute;
+  width: 661px;
+  height: 0;
+  left: 720px;
+  top: 701px;
+  border: 1px solid #e5c7a6;
+} /*--LINHA DIVISÓRIA 02*/
+
+/*--INICIO BOTÃO DE COMPRA--*/
+.buy {
+  position: absolute;
+  width: 562px;
+  height: 87px;
+  left: 783px;
+  top: 865px;
+  background: #724931;
+  border-radius: 50px;
+}
+
+.buy ul {
+  position: absolute;
+  width: 128px;
+  height: 28px;
+  right: 210px;
+  bottom: 30px;
+}
+
+.buy li {
+  color: #c99166;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+/*--FIM BOTÃO DE COMPRA--*/
