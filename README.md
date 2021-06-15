@@ -1,8 +1,10 @@
 # nomad-perfume
-Página de produto para o perfume fictício Nomad.
+Figma based, static and inspired by (https://dribbble.com/shots/15780967-DW-Product-page-concept) for studying purposes only.
 
-Tecnologias utilizadas:
+Technologies used:
 
-- HTML;
-- CSS;
-- Figma;
+   - Figma;
+   - HTML;
+   - CSS;
+
+#html #css #figma
